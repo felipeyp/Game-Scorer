@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Beach Tennis Score</title>
+
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<main class="scoreboards">
+		<div class="scoreboard">
+			<h2 class="title">Score Team A</h2>
+			<p id="scoreA" aria-live="polite">0</p>
+			<div class="buttonGroup">
+				<button class="button" id="btnAplus" aria-label="Increase score team A by 1">+ 1</button>
+				<button class="button" id="btnAminus" aria-label="Decrease score team A by 1">- 1</button>
+			</div>
+
+
+		</div>
+
+		<div class="scoreboard">
+			<h2 class="title">Score Team B</h2>
+			<p id="scoreB" aria-live="polite">0</p>
+			<div class="buttonGroup">
+				<button class="button" id="btnBplus" aria-label="Increase score team B by 1">+ 1</button>
+				<button class="button" id="btnBminus" aria-label="Decrease score team B by 1">- 1</button>
+			</div>
+
+		</div>
+	</main>
+	<script src="script.js" defer></script>
+</body>
+
+</html>
